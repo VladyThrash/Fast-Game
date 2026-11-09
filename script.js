@@ -12,7 +12,7 @@ let puntuacion = 0;
 let balas = [];
 let enemigos = [];
 let direccionEnemigos = 1; // 1 para derecha, -1 para izquierda
-let velocidadEnemigos = 2; // ¡Modificable en futuras ramas!
+let velocidadEnemigos = 6; // ¡Modificable en futuras ramas!
 
 // 1. Inicializar enemigos
 function crearEnemigos() {
@@ -134,4 +134,4 @@ function verificarColisiones() {
 
 // Iniciar el juego
 crearEnemigos();
-setInterval(cicloJuego, 30);
+setInterval(cicloJuego, 15);
