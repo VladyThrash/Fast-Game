@@ -2,7 +2,7 @@
 
 Un juego interactivo construido con HTML, CSS y JavaScript. Este proyecto sirve como práctica principal para aprender el flujo de trabajo básico en **Git y GitHub**.
 
-🚀 **[¡Juega la versión en vivo aquí!](URL_DE_TU_GITHUB_PAGES)**
+🚀 **[¡Juega la versión en vivo aquí!](https://vladythrash.github.io/Fast-Game/)**
 
 ---
 
