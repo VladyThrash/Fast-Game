@@ -97,6 +97,16 @@ function moverEnemigos() {
         let left = parseInt(enemigo.style.left);
         enemigo.style.left = (left + (velocidadEnemigos * direccionEnemigos)) + 'px';
     });
+
+    // Agregar al final de la función moverEnemigos()
+    enemigos.forEach(enemigo => {
+        let top = parseInt(enemigo.style.top);
+        if (top >= 340) { // Si llegan a la altura del jugador
+            clearInterval(intervaloJuego); // Detiene el juego
+            alert("¡GAME OVER! Los invasores ganaron.");
+            location.reload(); // Recarga la página para reiniciar
+        }
+    });
 }
 
 function verificarColisiones() {
@@ -134,4 +144,4 @@ function verificarColisiones() {
 
 // Iniciar el juego
 crearEnemigos();
-setInterval(cicloJuego, 30);
+let intervaloJuego = setInterval(cicloJuego, 30);
