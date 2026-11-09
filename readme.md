@@ -28,4 +28,4 @@ Para correr este proyecto en tu propia computadora, sigue estos pasos desde tu t
 
 1. **Clona el repositorio:**
    ```bash
-   git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
+   git clone https://github.com/VladyThrash/Fast-Game.git
