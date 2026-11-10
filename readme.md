@@ -60,7 +60,7 @@ setInterval(cicloJuego, 15);
 =======
 let intervaloJuego = setInterval(cicloJuego, 30);
 >>>>>>> bugfix/game-over
-´´´
+```
 
 ## ⚙️ Instalación y Uso Local
 
